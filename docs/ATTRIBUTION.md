@@ -1,5 +1,7 @@
 # Attribution and publication handling
 
+**Educational material:** an independent study companion documenting Kaan Kaya's coursework through original explanations, lab analysis and illustrative examples. Northwind is fictional, and the small saved experiments demonstrate evaluation methods. This is not an official DeepLearning.AI course distribution.
+
 Course: [Evaluating and Improving Agentic Applications](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications), DeepLearning.AI, built with Arize AI. Instructor: Laurie Voss; opening discussion with Andrew Ng.
 
 Lesson titles/order came from the signed-in syllabus captured 4 November 2026. The Northwind agent, course notebooks, assignment scaffolding, evaluators supplied in lessons and teaching materials belong to their respective owners. Exercise regions in saved notebooks reflect coursework; the capture records describe them without publishing solutions.

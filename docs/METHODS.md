@@ -1,6 +1,6 @@
 # Methods index
 
-This index distinguishes methods observed in saved artifacts from lecture review. All original notebooks remain local; hashes and saved execution state are in [ARTIFACTS.json](ARTIFACTS.json). Most lesson-note templates are still pending.
+This educational index connects evaluation methods with the saved coursework evidence that illustrates them. All original notebooks remain local; hashes and saved execution state are in [ARTIFACTS.json](ARTIFACTS.json). The published module summaries cover selected concepts rather than reproducing the course's lectures.
 
 | Method | What it measures / procedure | Evidence and failure mode |
 | --- | --- | --- |

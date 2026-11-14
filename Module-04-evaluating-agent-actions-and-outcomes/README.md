@@ -1,5 +1,7 @@
 # Module 4: Evaluating Agent Actions and Outcomes
 
+**Educational module notes** from DeepLearning.AI coursework, using the fictional Northwind Apparel scenario. Course exercises and results are learning examples rather than a production reliability assessment.
+
 Original synthesis from saved local artifacts, reviewed on 14 November 2026. This review did not run the labs or verify unseen lectures.
 
 ## What this module demonstrates
@@ -30,21 +32,13 @@ These layers measure different properties. The identity rule passes when no refu
 
 Local-only original: `labs/m4-graded-lab-multi-layer-agent-evaluation/C1M4_Assignment.ipynb`. Five practice walkthrough GIFs and four graded Phoenix GIFs are present. See the [artifact manifest](../docs/ARTIFACTS.json), [saved results](../docs/RESULTS.md) and [environment limits](../docs/ENVIRONMENT.md).
 
-No runnable practice notebook, course helper tree, database snapshot or dependency lock is present. The media demonstrates a separate practice capture; its numbers should not be substituted for the graded notebook's results. Lesson-note templates remain incomplete, and no platform grade or new rerun is claimed.
+No runnable practice notebook, course helper tree, database snapshot or dependency lock is present. The media demonstrates a separate practice capture; its numbers should not be substituted for the graded notebook's results. No platform grade or new rerun is claimed.
 
-## Lesson index
+## Published learning material
 
-The syllabus order follows the course capture of 4 November 2026. Documentation status is independent of platform completion.
+| Resource | What to explore |
+| --- | --- |
+| [Lab 1: Evaluate What the Agent Does](labs/lab-1-evaluate-what-the-agent-does/CAPTURE.md) | Lab analysis of saved visual evidence |
+| [M4 Graded Lab: Multi-Layer Agent Evaluation](labs/m4-graded-lab-multi-layer-agent-evaluation/CAPTURE.md) | Lab analysis of saved notebook outputs |
 
-| # | Lesson | Format | Capture status |
-| --- | --- | --- | --- |
-| 01 | [Evaluating the Work Behind a Response](notes/01-evaluating-the-work-behind-a-response.md) | Video | Pending verification |
-| 02 | [Evaluating Actions and Tool Calls](notes/02-evaluating-actions-and-tool-calls.md) | Video | Pending verification |
-| 03 | [Evaluating Trajectories](notes/03-evaluating-trajectories.md) | Video | Pending verification |
-| 04 | [Evaluating Across Conversation Turns](notes/04-evaluating-across-conversation-turns.md) | Video | Pending verification |
-| 05 | [Verifying Task Outcomes](notes/05-verifying-task-outcomes.md) | Video | Pending verification |
-| 06 | [Interpreting Evaluation Results Together](notes/06-interpreting-evaluation-results-together.md) | Video | Pending verification |
-| 07 | [Lab 1: Evaluate What the Agent Does](labs/lab-1-evaluate-what-the-agent-does/CAPTURE.md) | Code Example | Media only; notebook absent |
-| 08 | [M4 Graded Lab: Multi-Layer Agent Evaluation](labs/m4-graded-lab-multi-layer-agent-evaluation/CAPTURE.md) | Graded・Code Assignment | Saved notebook inspected |
-| 09 | [Module 4 Quiz](notes/09-module-4-quiz.md) | Graded・Quiz | Pending verification |
-| 10 | [Module 4 Resources](notes/10-module-4-resources.md) | Reading | Pending verification |
+For the full teaching sequence, use the [official course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications). This repository presents selected educational explanations and saved evidence, rather than a complete set of lecture notes.

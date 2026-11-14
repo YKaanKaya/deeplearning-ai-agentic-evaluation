@@ -1,5 +1,7 @@
 # Module 3: Building Evaluators You Can Trust
 
+**Educational module notes** from DeepLearning.AI coursework, using the fictional Northwind Apparel scenario. Course exercises and results are learning examples rather than a production reliability assessment.
+
 Original synthesis from saved local artifacts, reviewed on 14 November 2026. This review did not run the labs or verify unseen lectures.
 
 ## What this module demonstrates
@@ -30,20 +32,13 @@ The perfect intermediate score follows changes to reference labels in the exerci
 
 Local-only original: `labs/m3-graded-lab-building-and-trusting-evaluators/C1M3_Assignment.ipynb`. One practice walkthrough and five graded-lab Phoenix GIFs are also preserved. See the [artifact manifest](../docs/ARTIFACTS.json), [saved results](../docs/RESULTS.md) and [environment documentation](../docs/ENVIRONMENT.md).
 
-The practice notebook, course helpers, agent package and environment lock are absent. The saved assignment uses an Anthropic `claude-sonnet-4-6` judge; this is a recorded setting, not a claim of current model availability or a reproduced local run. Lesson-note templates remain incomplete.
+The practice notebook, course helpers, agent package and environment lock are absent. The saved assignment uses an Anthropic `claude-sonnet-4-6` judge; this is a recorded setting, not a claim of current model availability or a reproduced local run. Only substantive study notes and lab analysis are published here.
 
-## Lesson index
+## Published learning material
 
-The syllabus order follows the course capture of 4 November 2026. Documentation status is independent of platform completion.
+| Resource | What to explore |
+| --- | --- |
+| [Lab 1: Build Evaluators You Can Trust](labs/lab-1-build-evaluators-you-can-trust/CAPTURE.md) | Lab analysis of saved visual evidence |
+| [M3 Graded Lab: Building and trusting evaluators](labs/m3-graded-lab-building-and-trusting-evaluators/CAPTURE.md) | Lab analysis of saved notebook outputs |
 
-| # | Lesson | Format | Capture status |
-| --- | --- | --- | --- |
-| 01 | [Building Code Evaluators](notes/01-building-code-evaluators.md) | Video | Pending verification |
-| 02 | [Using an LLM Judge](notes/02-using-an-llm-judge.md) | Video | Pending verification |
-| 03 | [Writing a Custom Rubric](notes/03-writing-a-custom-rubric.md) | Video | Pending verification |
-| 04 | [Validating LLM Judges](notes/04-validating-llm-judges.md) | Video | Pending verification |
-| 05 | [Applying Evaluators to Northwind](notes/05-applying-evaluators-to-northwind.md) | Video | Pending verification |
-| 06 | [Lab 1: Build Evaluators You Can Trust](labs/lab-1-build-evaluators-you-can-trust/CAPTURE.md) | Code Example | Media only; notebook absent |
-| 07 | [M3 Graded Lab: Building and trusting evaluators](labs/m3-graded-lab-building-and-trusting-evaluators/CAPTURE.md) | Graded・Code Assignment | Saved notebook inspected |
-| 08 | [Module 3 Quiz](notes/08-module-3-quiz.md) | Graded・Quiz | Pending verification |
-| 09 | [Module 3 Resources](notes/09-module-3-resources.md) | Reading | Pending verification |
+For the full teaching sequence, use the [official course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications). This repository presents selected educational explanations and saved evidence, rather than a complete set of lecture notes.

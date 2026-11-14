@@ -1,5 +1,7 @@
 # Module 2: Observing and Benchmarking Agents
 
+**Educational module notes** from DeepLearning.AI coursework, using the fictional Northwind Apparel scenario. Course exercises and results are learning examples rather than a production reliability assessment.
+
 Original synthesis from saved local artifacts, reviewed on 14 November 2026. This review did not run the labs or verify unseen lectures.
 
 ## What this module demonstrates
@@ -20,20 +22,13 @@ These are two different saved lab artifacts. Their counts must not be merged. A 
 
 Local-only originals: `labs/m2-graded-lab-error-analysis-and-synthetic-test-data/C1M2_Assignment.ipynb` and `labs/lab-1-build-the-northwind-benchmark/M2_Northwind_Benchmark_Capture.zip`. The archive includes original curation and labeling notes, four trace-linked benchmark entries, six screenshots and a GIF. A standalone copy of that GIF is also present. See the [artifact manifest](../docs/ARTIFACTS.json) and [saved results](../docs/RESULTS.md).
 
-No runnable practice notebook, agent package, helper modules or dependency lock is preserved here. The archive is a learning capture rather than a complete application export. Lesson-note templates remain incomplete; no new execution or platform-grade verification is claimed.
+No runnable practice notebook, agent package, helper modules or dependency lock is preserved here. The archive is a learning capture rather than a complete application export. No new execution or platform-grade verification is claimed.
 
-## Lesson index
+## Published learning material
 
-The syllabus order follows the course capture of 4 November 2026. Documentation status is independent of platform completion.
+| Resource | What to explore |
+| --- | --- |
+| [Lab 1: Build the Northwind Benchmark](labs/lab-1-build-the-northwind-benchmark/CAPTURE.md) | Lab analysis of saved visual evidence |
+| [M2 Graded Lab: Error analysis and synthetic test data](labs/m2-graded-lab-error-analysis-and-synthetic-test-data/CAPTURE.md) | Lab analysis of saved notebook outputs |
 
-| # | Lesson | Format | Capture status |
-| --- | --- | --- | --- |
-| 01 | [Define Application Requirements](notes/01-define-application-requirements.md) | Video | Pending verification |
-| 02 | [Turn Requirements into Test Cases](notes/02-turn-requirements-into-test-cases.md) | Video | Pending verification |
-| 03 | [Analyze and Label Failures](notes/03-analyze-and-label-failures.md) | Video | Pending verification |
-| 04 | [Build a Test Set You Can Trust](notes/04-build-a-test-set-you-can-trust.md) | Video | Pending verification |
-| 05 | [Build the Northwind Benchmark](notes/05-build-the-northwind-benchmark.md) | Video | Pending verification |
-| 06 | [Lab 1: Build the Northwind Benchmark](labs/lab-1-build-the-northwind-benchmark/CAPTURE.md) | Code Example | Archive and media inspected |
-| 07 | [M2 Graded Lab: Error analysis and synthetic test data](labs/m2-graded-lab-error-analysis-and-synthetic-test-data/CAPTURE.md) | Graded・Code Assignment | Saved notebook; retained error |
-| 08 | [Module 2 Quiz](notes/08-module-2-quiz.md) | Graded・Quiz | Pending verification |
-| 09 | [Module 2 Resources](notes/09-module-2-resources.md) | Reading | Pending verification |
+For the full teaching sequence, use the [official course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications). This repository presents selected educational explanations and saved evidence, rather than a complete set of lecture notes.

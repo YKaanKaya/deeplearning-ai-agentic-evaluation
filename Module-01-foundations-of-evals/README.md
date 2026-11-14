@@ -1,5 +1,7 @@
 # Module 1: Foundations of Evals
 
+**Educational module notes** from DeepLearning.AI coursework, using the fictional Northwind Apparel scenario. Course exercises and results are learning examples rather than a production reliability assessment.
+
 Original synthesis from saved local artifacts, reviewed on 14 November 2026. This review did not run the labs or verify unseen lectures.
 
 ## What this module demonstrates
@@ -22,23 +24,15 @@ The Python walkthrough records parent/child relationships, timing, inputs, outpu
 
 Local-only originals: `labs/lab-1-trace-an-agent-with-python/local_traces_walkthrough.ipynb` and `labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/C1M1_Assignment.ipynb`. The Phoenix practice lab has media but no saved notebook. Their paths and hashes belong in the [artifact manifest](../docs/ARTIFACTS.json).
 
-The imported agent package, helper modules, trace JSON files and dependency lock are absent from this capture. No local rerun is claimed. See [environment limits](../docs/ENVIRONMENT.md) and the lab captures below. Lesson-note templates remain explicitly incomplete.
+The imported agent package, helper modules, trace JSON files and dependency lock are absent from this capture. No local rerun is claimed. See [environment limits](../docs/ENVIRONMENT.md) and the lab captures below. This public module page links only to substantive study notes and inspected lab records.
 
-## Lesson index
+## Published learning material
 
-The syllabus order follows the course capture of 4 November 2026. Documentation status is independent of platform completion.
+| Resource | What to explore |
+| --- | --- |
+| [A conversation between Laurie Voss and Andrew Ng](notes/01-a-conversation-between-laurie-voss-and-andrew-ng.md) | Original paraphrased opening-lesson summary |
+| [Lab 1: Trace an Agent with Python](labs/lab-1-trace-an-agent-with-python/CAPTURE.md) | Lab analysis of saved notebook outputs |
+| [Lab 2: Trace an Agent with Phoenix](labs/lab-2-trace-an-agent-with-phoenix/CAPTURE.md) | Lab analysis of saved visual evidence |
+| [M1 Graded Lab: Tracing the Northwind Apparel Agent with Phoenix](labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/CAPTURE.md) | Lab analysis of saved notebook outputs |
 
-| # | Lesson | Format | Capture status |
-| --- | --- | --- | --- |
-| 01 | [A conversation between Laurie Voss and Andrew Ng](notes/01-a-conversation-between-laurie-voss-and-andrew-ng.md) | Video | Transcript notes drafted |
-| 02 | [Why Evals Matter](notes/02-why-evals-matter.md) | Video | Pending verification |
-| 03 | [The Evals Process Part 1](notes/03-the-evals-process-part-1.md) | Video | Pending verification |
-| 04 | [The Evals Process Part 2](notes/04-the-evals-process-part-2.md) | Video | Pending verification |
-| 05 | [Traces](notes/05-traces.md) | Video | Pending verification |
-| 06 | [Reading Lab 1: How Tracing Works](notes/06-reading-lab-1-how-tracing-works.md) | Reading | Pending verification |
-| 07 | [Lab 1: Trace an Agent with Python](labs/lab-1-trace-an-agent-with-python/CAPTURE.md) | Code Example | Saved notebook inspected |
-| 08 | [Lab 2: Trace an Agent with Phoenix](labs/lab-2-trace-an-agent-with-phoenix/CAPTURE.md) | Code Example | Media only; notebook absent |
-| 09 | [Join the Deeplearning.AI Forum!](notes/09-join-the-deeplearning-ai-forum.md) | Reading | Pending verification |
-| 10 | [M1 Graded Lab: Tracing the Northwind Apparel Agent with Phoenix](labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/CAPTURE.md) | Graded・Code Assignment | Saved notebook inspected |
-| 11 | [Module 1 Quiz](notes/11-module-1-quiz.md) | Graded・Quiz | Pending verification |
-| 12 | [Module 1 Resources](notes/12-module-1-resources.md) | Reading | Pending verification |
+For the full teaching sequence, use the [official course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications). This repository presents selected educational explanations and saved evidence, rather than a complete set of lecture notes.

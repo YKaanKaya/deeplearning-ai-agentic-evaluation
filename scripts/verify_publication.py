@@ -16,6 +16,14 @@ result = subprocess.run(
 files = [ROOT / p for p in result.stdout.decode().split("\0") if p]
 tracked = {p.resolve() for p in files}
 problems: list[str] = []
+local_only_paths = {
+    "AGENTS.md", "CHANGELOG.md", "COURSE_PROGRESS.csv", "course-outline.json",
+    "labs-index.json", "docs/CAPTURE_WORKFLOW.md", "docs/PORTFOLIO_EVIDENCE.md",
+    "docs/PUBLICATION.md",
+}
+published_notes = {
+    "Module-01-foundations-of-evals/notes/01-a-conversation-between-laurie-voss-and-andrew-ng.md",
+}
 credential_patterns = [
     re.compile(r"(?:gh[pousr]_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{30,})"),
     re.compile(r"sk-(?:proj-|ant-)?[A-Za-z0-9_-]{20,}"),
@@ -26,6 +34,10 @@ credential_patterns = [
 links_checked = 0
 for path in files:
     relative = path.relative_to(ROOT).as_posix()
+    if relative in local_only_paths or relative.startswith("templates/"):
+        problems.append(f"Local capture scaffolding in public Git: {relative}")
+    if "/notes/" in relative and relative not in published_notes:
+        problems.append(f"Study note has not been selected for publication: {relative}")
     if path.name.startswith(".env") or path.suffix.lower() in {".pdf", ".zip"}:
         problems.append(f"Restricted file: {relative}")
     if relative.startswith("Module-") and path.suffix.lower() != ".md":
@@ -37,6 +49,8 @@ for path in files:
         if any(pattern.search(line) for pattern in credential_patterns):
             problems.append(f"Potential secret or authenticated URL: {relative}:{number}")
     if path.suffix == ".md":
+        if re.search(r"Pending review\. Use `templates/|Status: not yet captured or verified", text):
+            problems.append(f"Empty capture template in public Git: {relative}")
         for link in re.findall(r"!?\[[^\]]*\]\(([^)]+)\)", text):
             target = link.strip("<>").split("#", 1)[0]
             if not target or re.match(r"^[a-z]+:", target, re.I):

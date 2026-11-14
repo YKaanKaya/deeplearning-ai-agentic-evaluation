@@ -34,3 +34,18 @@ Thumbs.db
 !**/labs/*graded*/
 **/labs/*graded*/*
 !**/labs/*graded*/CAPTURE.md
+
+# Local capture scaffolding is not part of the educational publication.
+/AGENTS.md
+/CHANGELOG.md
+/COURSE_PROGRESS.csv
+/course-outline.json
+/labs-index.json
+/templates/
+/docs/CAPTURE_WORKFLOW.md
+/docs/PORTFOLIO_EVIDENCE.md
+/docs/PUBLICATION.md
+
+# Publish substantive study notes only; empty lesson/quiz captures stay local.
+/Module-*/notes/*
+!/Module-01-foundations-of-evals/notes/01-a-conversation-between-laurie-voss-and-andrew-ng.md

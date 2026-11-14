@@ -1,5 +1,7 @@
 # Results with evidence and limits
 
+**Educational evidence from the fictional Northwind support-agent labs.** These small course exercises illustrate how evaluation methods reveal different kinds of failure.
+
 Audit: 14 November 2026. Notebook cell indices are **zero-based**. Originals remain local and are fingerprinted in [ARTIFACTS.json](ARTIFACTS.json). These are saved outputs, not freshly replicated measurements.
 
 ## Module 3 - validate the policy judge
@@ -70,4 +72,4 @@ A data-fix stage changes grounding from 1/3 to 2/3, but the recording identifies
 
 The [public certificate](https://www.deeplearning.ai/certificates/03976233-64c4-4195-a504-d5676a73f825) was checked in the browser on 14 November 2026: Kaan KAYA, this course, completion date November 14, 2026. Kaan reports final lab **30/30** and quiz **10/10**. No grade screen was independently inspected. Grade percentages are not agent-performance measurements.
 
-Six notebooks and 22 standalone recordings are local, versus eleven listed labs. Most lecture notes remain templates. M2 retains a `RateLimitError`; complete execution counts do not establish a clean run. [Environment gaps](ENVIRONMENT.md) and [publication exclusions](ATTRIBUTION.md) remain explicit.
+Six notebooks and 22 standalone recordings are preserved locally, versus eleven listed labs. The public pages curate substantive analysis and selected visual evidence. M2 retains a `RateLimitError`; complete execution counts do not establish a clean run. [Environment gaps](ENVIRONMENT.md) and [publication exclusions](ATTRIBUTION.md) remain explicit.
