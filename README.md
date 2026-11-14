@@ -18,7 +18,7 @@ The Northwind Apparel scenario follows a support agent that searches a catalog, 
 
 Inventory inspected **14 November 2026**: five module folders, 51 syllabus items, 11 listed labs, **6 saved notebooks and 22 standalone GIFs**. Five slide PDFs and one ZIP are also local. The ZIP contains six additional JPG captures, counted separately. A saved artifact does not prove a complete clean execution. Many lecture-note files remain labeled templates; the progress tracker preserves those gaps.
 
-Kaan reports completing the final lab **30/30** and quiz **10/10** on 14 November 2026 and supplied the certificate link above. These are assessment grades, not agent-performance percentages. Certificate details were not independently verified during the static artifact audit.
+The public certificate verifies **Kaan KAYA**, this course and completion on **14 November 2026**. Kaan reports final lab **30/30** and quiz **10/10**; their grade screens were not independently inspected. Assessment grades are separate from agent-performance measurements.
 
 ## Evaluation workflow
 

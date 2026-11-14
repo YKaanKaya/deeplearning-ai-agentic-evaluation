@@ -20,3 +20,6 @@
 - Added a separately authored synthetic alignment example, provenance manifests, environment gaps, publication exclusions and reviewed Phoenix excerpts.
 - Prepared portfolio integration in an isolated checkout; original portfolio checkout and unrelated files preserved.
 - Recorded final lab/quiz completion as learner-reported; no new hosted lab execution or grade verification.
+- Published the reviewed course repository and pushed portfolio commit `8436b23`; Netlify deploy `6af8169c5a50ee2762f8b36d` reached ready and the live showcase was checked on desktop and mobile.
+- Verified the public certificate recipient, course title and completion date. Individual lab/quiz scores remain learner-reported.
+- Recorded build, type, lint, link, media-control and deployment checks in `docs/PUBLICATION.md`.

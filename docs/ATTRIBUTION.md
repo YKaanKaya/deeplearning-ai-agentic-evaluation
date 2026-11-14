@@ -20,4 +20,4 @@ Publication scans cover tracked text, notebook source/output/metadata, credentia
 
 ## Certificate and completion
 
-[Certificate link supplied by Kaan](https://learn.deeplearning.ai/certificates/03976233-64c4-4195-a504-d5676a73f825). Final lab 30/30 and quiz 10/10 on 14 November 2026 are learner-reported. Grade screens were not independently checked. Assessment grades do not measure Northwind agent performance.
+[Certificate link supplied by Kaan](https://learn.deeplearning.ai/certificates/03976233-64c4-4195-a504-d5676a73f825) redirects to a public DeepLearning.AI certificate. Browser verification on 14 November 2026 confirmed Kaan KAYA, the course title and completion date November 14, 2026. Final lab 30/30 and quiz 10/10 remain learner-reported; grade screens were not independently checked. Assessment grades do not measure Northwind agent performance.
