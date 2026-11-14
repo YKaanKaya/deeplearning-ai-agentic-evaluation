@@ -1,0 +1,245 @@
+{
+  "inspected_on": "2026-11-14",
+  "scope": "Local saved artifacts, not fresh executions. Original course files remain local; see ATTRIBUTION.md.",
+  "artifacts": [
+    {
+      "path": "Module-01-foundations-of-evals/labs/lab-1-trace-an-agent-with-python/local_traces_walkthrough.ipynb",
+      "bytes": 79058,
+      "sha256": "992cde79ad94a2bb78c4f4ba0b599eca39a81df2e2d419c395e9ce7374e1cc42",
+      "published": false,
+      "cells": 35,
+      "code_cells": 16,
+      "executed_code_cells": 16,
+      "saved_errors": [],
+      "python_metadata": "3.12.16"
+    },
+    {
+      "path": "Module-01-foundations-of-evals/labs/lab-2-trace-an-agent-with-phoenix/Phoenix_Lab_Walkthrough.gif",
+      "bytes": 1017826,
+      "sha256": "3975a220eccabdc68811de16350204bab4edc11a12b56e6d3a7a4256ac02a558",
+      "published": false
+    },
+    {
+      "path": "Module-01-foundations-of-evals/labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/C1M1_Assignment.ipynb",
+      "bytes": 114627,
+      "sha256": "0f4fbf8aaec46e1f80bf8f6bc5860004154c6bbad0a1c9e978b5c94f47fb6631",
+      "published": false,
+      "cells": 57,
+      "code_cells": 22,
+      "executed_code_cells": 21,
+      "saved_errors": [],
+      "python_metadata": "3.11.13"
+    },
+    {
+      "path": "Module-01-foundations-of-evals/labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/M1_Phoenix_Lab_Walkthrough.gif",
+      "bytes": 859846,
+      "sha256": "2a977220f4763251a47c63127548168689e7c9021ffe33dc55d8a2557cb0e3c6",
+      "published": false
+    },
+    {
+      "path": "Module-01-foundations-of-evals/notes/Lecture Notes.pdf",
+      "bytes": 5655184,
+      "sha256": "84e5b17476abfe05045cb4614d84e5e7e16d56151eab5506db80d20723624c5f",
+      "published": false
+    },
+    {
+      "path": "Module-02-observing-and-benchmarking-agents/labs/lab-1-build-the-northwind-benchmark/M2_Northwind_Benchmark_Capture.zip",
+      "bytes": 2651069,
+      "sha256": "a63b6514a418f3f2ca672c54ca8defb1d7093e51330b3aec7c54db956e34e0e4",
+      "published": false
+    },
+    {
+      "path": "Module-02-observing-and-benchmarking-agents/labs/lab-1-build-the-northwind-benchmark/M2_Northwind_Benchmark_Walkthrough.gif",
+      "bytes": 1771677,
+      "sha256": "64607ed9d469976a0e6e2152cd9063597af2ebe629a08ce8a4b99b1fc996cc38",
+      "published": false
+    },
+    {
+      "path": "Module-02-observing-and-benchmarking-agents/labs/m2-graded-lab-error-analysis-and-synthetic-test-data/C1M2_Assignment.ipynb",
+      "bytes": 179313,
+      "sha256": "51c623364fc928c4bbf261730a0a1cd665731bff7ef78cbd5d826bb53179ac8d",
+      "published": false,
+      "cells": 82,
+      "code_cells": 35,
+      "executed_code_cells": 35,
+      "saved_errors": [
+        {
+          "cell_zero_based": 72,
+          "type": "RateLimitError"
+        }
+      ],
+      "python_metadata": "3.11.13"
+    },
+    {
+      "path": "Module-02-observing-and-benchmarking-agents/notes/Module-02-observing-and-benchmarking-agents.pdf",
+      "bytes": 4941743,
+      "sha256": "378e571e58f1998e35b76fc2166bc07e7450a4ad9ecedff8ce2e1725070a63ab",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/lab-1-build-evaluators-you-can-trust/M3_Evaluators_Full_Walkthrough.gif",
+      "bytes": 2002596,
+      "sha256": "7124d1a11fb78df91b5d72a8128ba2c965ecbbff28586208111aecdb79481d3b",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/C1M3_Assignment.ipynb",
+      "bytes": 116556,
+      "sha256": "bd268c4556e95ca55ec643f22792949712d0a32078a524fb47f65050c3f61fea",
+      "published": false,
+      "cells": 76,
+      "code_cells": 35,
+      "executed_code_cells": 35,
+      "saved_errors": [],
+      "python_metadata": "3.11.13"
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_01_Phoenix_Overview.gif",
+      "bytes": 848584,
+      "sha256": "1f302e3e9f0020374e92ba1c85de797cd28d8fc1e96af66965b5a617e643a541",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_02_Phoenix_Trace_Inspection.gif",
+      "bytes": 526350,
+      "sha256": "989954370469c8d12a2c92eab006362f18dfa61907c6f5e3a4e97f4ec4d69cfb",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_03_Phoenix_Code_Evaluator.gif",
+      "bytes": 512530,
+      "sha256": "d50959e9683edec9e3e7b1ac013cf5c9b80ebddb9ab2a0f057e09a9a1bf40a1f",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_04_Phoenix_Correctness_Judge.gif",
+      "bytes": 612052,
+      "sha256": "f4a1d89ed5dbe0412d621de63bf6cdce3fc78df8b3660007924da166fe964fd0",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_05_Phoenix_Policy_Compliance.gif",
+      "bytes": 571154,
+      "sha256": "504a17e4ab04f4bc98b99c181f31b8437afd2b0f51dfd34b27ccdb8b16df2c47",
+      "published": false
+    },
+    {
+      "path": "Module-03-building-evaluators-you-can-trust/notes/M3-Evals.pdf",
+      "bytes": 6215021,
+      "sha256": "84a47a794ae43cddb62bddbe33332b64d67c05b62fab8f47ced73af3f2afd4a1",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does/M4_Lab1_01_Run_Test_Set_and_Build_Trajectories.gif",
+      "bytes": 2698226,
+      "sha256": "71e648d090f865685ec6aa6afb35250714047d074a382c359de210166ce914d8",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does/M4_Lab1_02_Evaluate_Tool_Selection_and_Invocation.gif",
+      "bytes": 1443543,
+      "sha256": "1324a5b3d7dca4a23f5dde46a69510bd1573144ee1fc639523b41302174a70dd",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does/M4_Lab1_03_Verify_Refund_Outcomes.gif",
+      "bytes": 1179639,
+      "sha256": "bfdff1d424962d0be8e834156d6cf83aee9434dede62ca8635aab7971f387f8f",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does/M4_Lab1_04_Evaluate_Policy_Compliance.gif",
+      "bytes": 1779494,
+      "sha256": "4fa24ad9e6bbc1c8f4a9a1d6cd37e1d81da7790c602261a950c85d1545946ba0",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does/M4_Lab1_05_Compare_Layered_Scores_in_Phoenix.gif",
+      "bytes": 1945422,
+      "sha256": "907397e32c0702831e78407998bd37d731c507f11b59d2fbed4c85d86c232389",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/C1M4_Assignment.ipynb",
+      "bytes": 72695,
+      "sha256": "b30fa6862dd31ceeeeeb60ffac3e61bf3496fb6119789490ba7c282be469bbc5",
+      "published": false,
+      "cells": 57,
+      "code_cells": 20,
+      "executed_code_cells": 20,
+      "saved_errors": [],
+      "python_metadata": "3.11.13"
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/M4_01_Phoenix_Trace_Inspection.gif",
+      "bytes": 921519,
+      "sha256": "53c35978ea7e3f4ade0233360ad0df9eef8748c0d78bf31814b412befeb588c2",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/M4_02_Phoenix_Tool_Call_Inspection.gif",
+      "bytes": 1762776,
+      "sha256": "09711dd19fc416c4ca7565ab66cad7a24899551b16798be923df250ca9601a63",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/M4_03_Phoenix_Evaluation_Results.gif",
+      "bytes": 2121785,
+      "sha256": "9a27a812f5d27c5f857da1492ff7c5516c51d9070c34523d5f991a452308b621",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/M4_04_Phoenix_Layered_Annotations.gif",
+      "bytes": 1752160,
+      "sha256": "4748da8f600d7124c992415b382e584f0a7e8a8e1889c18c578f7976b69fa1b0",
+      "published": false
+    },
+    {
+      "path": "Module-04-evaluating-agent-actions-and-outcomes/notes/M4-Evals.pdf",
+      "bytes": 1857715,
+      "sha256": "4dea14e8851a062f64366c6d8a992d98bdd59cc213bb39ce9d8fd3eee683a6b9",
+      "published": false
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does/M5_01_Build_Test_Datasets.gif",
+      "bytes": 1068286,
+      "sha256": "3edd5a1a42ce348b50fa503e5bec6bcdd3fd36213691c2e591e5d359a13f218d",
+      "published": false
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does/M5_02_Baseline_Evaluation.gif",
+      "bytes": 1199239,
+      "sha256": "98e8adaf9361de1609a52c48ce90165e440541a993e33d5a0a7d224a4b21ffb1",
+      "published": false
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does/M5_03_Prompt_Rule_Comparison.gif",
+      "bytes": 1072853,
+      "sha256": "d004b941648a1d7774bf9f74cc799408bd1d9dcb3b6ce92c8871fa9f996b5f52",
+      "published": false
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does/M5_04_Data_Fix_and_Final_Comparison.gif",
+      "bytes": 2125274,
+      "sha256": "fd57305b4ebe5457669067b5f5f137520624d654917ebf64fc7fbada4ec508ad",
+      "published": false
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/labs/m5-graded-lab-improving-an-agent-with-evals/C1M5_Assignment.ipynb",
+      "bytes": 100916,
+      "sha256": "b933579d4819986a7492b35706c33d93cc174febedd8041d3b58695aac6e3526",
+      "published": false,
+      "cells": 81,
+      "code_cells": 35,
+      "executed_code_cells": 35,
+      "saved_errors": [],
+      "python_metadata": "3.11.13"
+    },
+    {
+      "path": "Module-05-improving-agentic-applications/notes/M5-Evals.pdf",
+      "bytes": 2582680,
+      "sha256": "10ad3fcade8f935edf78b623ca71e74de33845c2cb49b803e2e1a8922f45cbfc",
+      "published": false
+    }
+  ]
+}

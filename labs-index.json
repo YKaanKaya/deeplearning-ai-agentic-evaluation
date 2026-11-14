@@ -1,0 +1,90 @@
+[
+  {
+    "lesson_id": "M1-07",
+    "path": "Module-01-foundations-of-evals/labs/lab-1-trace-an-agent-with-python",
+    "title": "Lab 1: Trace an Agent with Python",
+    "type": "Code Example",
+    "duration": "30m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/3sxuzjlf/lab-1%3A-trace-an-agent-with-python"
+  },
+  {
+    "lesson_id": "M1-08",
+    "path": "Module-01-foundations-of-evals/labs/lab-2-trace-an-agent-with-phoenix",
+    "title": "Lab 2: Trace an Agent with Phoenix",
+    "type": "Code Example",
+    "duration": "30m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/79ywr3/lab-2%3A-trace-an-agent-with-phoenix"
+  },
+  {
+    "lesson_id": "M1-10",
+    "path": "Module-01-foundations-of-evals/labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix",
+    "title": "M1 Graded Lab: Tracing the Northwind Apparel Agent with Phoenix",
+    "type": "Graded・Code Assignment",
+    "duration": "1h",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/nap9iymg/m1-graded-lab%3A-tracing-the-northwind-apparel-agent-with-phoenix"
+  },
+  {
+    "lesson_id": "M2-06",
+    "path": "Module-02-observing-and-benchmarking-agents/labs/lab-1-build-the-northwind-benchmark",
+    "title": "Lab 1: Build the Northwind Benchmark",
+    "type": "Code Example",
+    "duration": "40m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/i1bmo7ob/lab-1%3A-build-the-northwind-benchmark"
+  },
+  {
+    "lesson_id": "M2-07",
+    "path": "Module-02-observing-and-benchmarking-agents/labs/m2-graded-lab-error-analysis-and-synthetic-test-data",
+    "title": "M2 Graded Lab: Error analysis and synthetic test data",
+    "type": "Graded・Code Assignment",
+    "duration": "50m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/i1bmot/m2-graded-lab%3A-error-analysis-and-synthetic-test-data"
+  },
+  {
+    "lesson_id": "M3-06",
+    "path": "Module-03-building-evaluators-you-can-trust/labs/lab-1-build-evaluators-you-can-trust",
+    "title": "Lab 1: Build Evaluators You Can Trust",
+    "type": "Code Example",
+    "duration": "40m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/8bh609rg/lab-1%3A-build-evaluators-you-can-trust"
+  },
+  {
+    "lesson_id": "M3-07",
+    "path": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators",
+    "title": "M3 Graded Lab: Building and trusting evaluators",
+    "type": "Graded・Code Assignment",
+    "duration": "1h",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/x7gfw63j/m3-graded-lab%3A-building-and-trusting-evaluators"
+  },
+  {
+    "lesson_id": "M4-07",
+    "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/lab-1-evaluate-what-the-agent-does",
+    "title": "Lab 1: Evaluate What the Agent Does",
+    "type": "Code Example",
+    "duration": "40m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/sh7zqa8/lab-1%3A-evaluate-what-the-agent-does"
+  },
+  {
+    "lesson_id": "M4-08",
+    "path": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation",
+    "title": "M4 Graded Lab: Multi-Layer Agent Evaluation",
+    "type": "Graded・Code Assignment",
+    "duration": "1h",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/cno79gi0z/m4-graded-lab%3A-multi-layer-agent-evaluation"
+  },
+  {
+    "lesson_id": "M5-07",
+    "path": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does",
+    "title": "Lab 1: Evaluate What the Agent Does",
+    "type": "Code Example",
+    "duration": "50m",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/ldijcwt7i/lab-1%3A-evaluate-what-the-agent-does"
+  },
+  {
+    "lesson_id": "M5-08",
+    "path": "Module-05-improving-agentic-applications/labs/m5-graded-lab-improving-an-agent-with-evals",
+    "title": "M5 Graded Lab: Improving an Agent with Evals",
+    "type": "Graded・Code Assignment",
+    "duration": "1h",
+    "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/79ywr27/m5-graded-lab%3A-improving-an-agent-with-evals"
+  }
+]

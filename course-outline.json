@@ -1,0 +1,342 @@
+{
+  "source": "DeepLearning.AI signed-in course syllabus",
+  "observed_date": "2026-11-04",
+  "modules": [
+    {
+      "number": 1,
+      "title": "Foundations of Evals",
+      "lessons": [
+        {
+          "title": "A conversation between Laurie Voss and Andrew Ng",
+          "type": "Video",
+          "duration": "8m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/53tpudpi/a-conversation-between-laurie-voss-and-andrew-ng"
+        },
+        {
+          "title": "Why Evals Matter",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/ldijc37i/why-evals-matter"
+        },
+        {
+          "title": "The Evals Process Part 1",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/bvl0kh83/the-evals-process-part-1"
+        },
+        {
+          "title": "The Evals Process Part 2",
+          "type": "Video",
+          "duration": "5m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/eg5nacsy/the-evals-process-part-2"
+        },
+        {
+          "title": "Traces",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/gy3a4e/traces"
+        },
+        {
+          "title": "Reading Lab 1: How Tracing Works",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/bvl0k28r/reading-lab-1%3A-how-tracing-works"
+        },
+        {
+          "title": "Lab 1: Trace an Agent with Python",
+          "type": "Code Example",
+          "duration": "30m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/3sxuzjlf/lab-1%3A-trace-an-agent-with-python"
+        },
+        {
+          "title": "Lab 2: Trace an Agent with Phoenix",
+          "type": "Code Example",
+          "duration": "30m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/79ywr3/lab-2%3A-trace-an-agent-with-phoenix"
+        },
+        {
+          "title": "Join the Deeplearning.AI Forum!",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/cno79b0z/join-the-deeplearning.ai-forum!"
+        },
+        {
+          "title": "M1 Graded Lab: Tracing the Northwind Apparel Agent with Phoenix",
+          "type": "Graded・Code Assignment",
+          "duration": "1h",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/nap9iymg/m1-graded-lab%3A-tracing-the-northwind-apparel-agent-with-phoenix"
+        },
+        {
+          "title": "Module 1 Quiz",
+          "type": "Graded・Quiz",
+          "duration": "20m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/rm6eg2/module-1-quiz"
+        },
+        {
+          "title": "Module 1 Resources",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/i1bmosoj/module-1-resources"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Observing and Benchmarking Agents",
+      "lessons": [
+        {
+          "title": "Define Application Requirements",
+          "type": "Video",
+          "duration": "7m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/a4ui1p/define-application-requirements"
+        },
+        {
+          "title": "Turn Requirements into Test Cases",
+          "type": "Video",
+          "duration": "4m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/sh7zq0bk/turn-requirements-into-test-cases"
+        },
+        {
+          "title": "Analyze and Label Failures",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/9i8rmo/analyze-and-label-failures"
+        },
+        {
+          "title": "Build a Test Set You Can Trust",
+          "type": "Video",
+          "duration": "5m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/a4ui13bl/build-a-test-set-you-can-trust"
+        },
+        {
+          "title": "Build the Northwind Benchmark",
+          "type": "Video",
+          "duration": "9m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/txe2f9/build-the-northwind-benchmark"
+        },
+        {
+          "title": "Lab 1: Build the Northwind Benchmark",
+          "type": "Code Example",
+          "duration": "40m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/i1bmo7ob/lab-1%3A-build-the-northwind-benchmark"
+        },
+        {
+          "title": "M2 Graded Lab: Error analysis and synthetic test data",
+          "type": "Graded・Code Assignment",
+          "duration": "50m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/i1bmot/m2-graded-lab%3A-error-analysis-and-synthetic-test-data"
+        },
+        {
+          "title": "Module 2 Quiz",
+          "type": "Graded・Quiz",
+          "duration": "20m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/uzfbvx/module-2-quiz"
+        },
+        {
+          "title": "Module 2 Resources",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/txe2fafd/module-2-resources"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Building Evaluators You Can Trust",
+      "lessons": [
+        {
+          "title": "Building Code Evaluators",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/jcmx7x/building-code-evaluators"
+        },
+        {
+          "title": "Using an LLM Judge",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/hl9qj2/using-an-llm-judge"
+        },
+        {
+          "title": "Writing a Custom Rubric",
+          "type": "Video",
+          "duration": "5m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/pu28bj/writing-a-custom-rubric"
+        },
+        {
+          "title": "Validating LLM Judges",
+          "type": "Video",
+          "duration": "8m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/79ywrq/-validating-llm-judges"
+        },
+        {
+          "title": "Applying Evaluators to Northwind",
+          "type": "Video",
+          "duration": "8m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/y8s465/applying-evaluators-to-northwind"
+        },
+        {
+          "title": "Lab 1: Build Evaluators You Can Trust",
+          "type": "Code Example",
+          "duration": "40m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/8bh609rg/lab-1%3A-build-evaluators-you-can-trust"
+        },
+        {
+          "title": "M3 Graded Lab: Building and trusting evaluators",
+          "type": "Graded・Code Assignment",
+          "duration": "1h",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/x7gfw63j/m3-graded-lab%3A-building-and-trusting-evaluators"
+        },
+        {
+          "title": "Module 3 Quiz",
+          "type": "Graded・Quiz",
+          "duration": "20m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/46z15qil/module-3-quiz"
+        },
+        {
+          "title": "Module 3 Resources",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/53tpuep7/module-3-resources"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Evaluating Agent Actions and Outcomes",
+      "lessons": [
+        {
+          "title": "Evaluating the Work Behind a Response",
+          "type": "Video",
+          "duration": "4m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/8bh60i/evaluating-the-work-behind-a-response"
+        },
+        {
+          "title": "Evaluating Actions and Tool Calls",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/60q53a/evaluating-actions-and-tool-calls"
+        },
+        {
+          "title": "Evaluating Trajectories",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/jcmx7u/evaluating-trajectories"
+        },
+        {
+          "title": "Evaluating Across Conversation Turns",
+          "type": "Video",
+          "duration": "9m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/46z155/evaluating-across-conversation-turns"
+        },
+        {
+          "title": "Verifying Task Outcomes",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/53tpu7/verifying-task-outcomes"
+        },
+        {
+          "title": "Interpreting Evaluation Results Together",
+          "type": "Video",
+          "duration": "4m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/txe2fim/interpreting-evaluation-results-together"
+        },
+        {
+          "title": "Lab 1: Evaluate What the Agent Does",
+          "type": "Code Example",
+          "duration": "40m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/sh7zqa8/lab-1%3A-evaluate-what-the-agent-does"
+        },
+        {
+          "title": "M4 Graded Lab: Multi-Layer Agent Evaluation",
+          "type": "Graded・Code Assignment",
+          "duration": "1h",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/cno79gi0z/m4-graded-lab%3A-multi-layer-agent-evaluation"
+        },
+        {
+          "title": "Module 4 Quiz",
+          "type": "Graded・Quiz",
+          "duration": "20m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/bvl0kp/module-4-quiz"
+        },
+        {
+          "title": "Module 4 Resources",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/gy3a4nh/module-4-resources"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Improving Agentic Applications",
+      "lessons": [
+        {
+          "title": "Planning an Improvement Test",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/k2csh8/planning-an-improvement-test"
+        },
+        {
+          "title": "Comparing Versions and Assessing Tradeoffs",
+          "type": "Video",
+          "duration": "7m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/de1cnr/comparing-versions-and-assessing-tradeoffs"
+        },
+        {
+          "title": "Choosing Where to Intervene",
+          "type": "Video",
+          "duration": "7m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/2fnhlq/choosing-where-to-intervene"
+        },
+        {
+          "title": "Refining a Change After a Regression",
+          "type": "Video",
+          "duration": "6m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/15vop8/refining-a-change-after-a-regression"
+        },
+        {
+          "title": "Improving Agents After Deployment",
+          "type": "Video",
+          "duration": "8m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/zqwvtn/improving-agents-after-deployment"
+        },
+        {
+          "title": "Turning Production Failures into Regression Tests",
+          "type": "Video",
+          "duration": "8m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/hl9qjqa/turning-production-failures-into-regression-tests"
+        },
+        {
+          "title": "Lab 1: Evaluate What the Agent Does",
+          "type": "Code Example",
+          "duration": "50m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/ldijcwt7i/lab-1%3A-evaluate-what-the-agent-does"
+        },
+        {
+          "title": "M5 Graded Lab: Improving an Agent with Evals",
+          "type": "Graded・Code Assignment",
+          "duration": "1h",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/79ywr27/m5-graded-lab%3A-improving-an-agent-with-evals"
+        },
+        {
+          "title": "Module 5 Quiz",
+          "type": "Graded・Quiz",
+          "duration": "20m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/fwaldl/module-5-quiz"
+        },
+        {
+          "title": "Module 5 Resources",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/uzfbvtz/module-5-resources"
+        },
+        {
+          "title": "Acknowledgments",
+          "type": "Reading",
+          "duration": "10m",
+          "url": "https://learn.deeplearning.ai/courses/evaluating-and-improving-agentic-applications/lesson/jcmx7d2/acknowledgments"
+        }
+      ]
+    }
+  ]
+}

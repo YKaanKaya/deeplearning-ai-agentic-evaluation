@@ -1,0 +1,36 @@
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Preserve locally; select reviewed publication copies later.
+**/original/
+**/runs/
+**/labs/*graded*/
+*.zip
+*.tar
+*.tar.gz
+
+# Isolated tooling/checkouts and unreviewed downloads remain local.
+.publication/
+.playwright-mcp/
+*.pdf
+*.ipynb
+!experiments/*.ipynb
+*.gif
+!assets/*.gif
+*.png
+*.jpg
+*.jpeg
+
+# Publish reviewed prose inside graded directories, never their code or outputs.
+!**/labs/*graded*/
+**/labs/*graded*/*
+!**/labs/*graded*/CAPTURE.md

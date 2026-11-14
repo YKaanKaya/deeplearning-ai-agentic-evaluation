@@ -1,0 +1,53 @@
+[
+  {
+    "name": "m1-tracing",
+    "source": "Module-01-foundations-of-evals/labs/m1-graded-lab-tracing-the-northwind-apparel-agent-with-phoenix/M1_Phoenix_Lab_Walkthrough.gif",
+    "source_sha256": "2a977220f4763251a47c63127548168689e7c9021ffe33dc55d8a2557cb0e3c6",
+    "frames_zero_based": [
+      0,
+      2,
+      3,
+      5,
+      6
+    ],
+    "poster_frame_zero_based": 3,
+    "review": "Reviewed all included frames for visible credentials, authenticated URLs, course source/solutions and private data. Synthetic Northwind traces and evaluator annotations only."
+  },
+  {
+    "name": "m3-validation",
+    "source": "Module-03-building-evaluators-you-can-trust/labs/m3-graded-lab-building-and-trusting-evaluators/M3_Graded_04_Phoenix_Correctness_Judge.gif",
+    "source_sha256": "f4a1d89ed5dbe0412d621de63bf6cdce3fc78df8b3660007924da166fe964fd0",
+    "frames_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "poster_frame_zero_based": 2,
+    "review": "Reviewed all included frames for visible credentials, authenticated URLs, course source/solutions and private data. Synthetic Northwind traces and evaluator annotations only."
+  },
+  {
+    "name": "m4-layered",
+    "source": "Module-04-evaluating-agent-actions-and-outcomes/labs/m4-graded-lab-multi-layer-agent-evaluation/M4_04_Phoenix_Layered_Annotations.gif",
+    "source_sha256": "4748da8f600d7124c992415b382e584f0a7e8a8e1889c18c578f7976b69fa1b0",
+    "frames_zero_based": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "poster_frame_zero_based": 2,
+    "review": "Reviewed all included frames for visible credentials, authenticated URLs, course source/solutions and private data. Synthetic Northwind traces and evaluator annotations only."
+  },
+  {
+    "name": "m5-comparison",
+    "source": "Module-05-improving-agentic-applications/labs/lab-1-evaluate-what-the-agent-does/M5_04_Data_Fix_and_Final_Comparison.gif",
+    "source_sha256": "fd57305b4ebe5457669067b5f5f137520624d654917ebf64fc7fbada4ec508ad",
+    "frames_zero_based": [
+      3,
+      4
+    ],
+    "poster_frame_zero_based": 4,
+    "review": "Reviewed all included frames for visible credentials, authenticated URLs, course source/solutions and private data. Synthetic Northwind traces and evaluator annotations only."
+  }
+]
