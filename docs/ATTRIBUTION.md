@@ -8,7 +8,7 @@ Lesson titles/order came from the signed-in syllabus captured 4 November 2026. T
 
 ## Published work
 
-Original paraphrased summaries, artifact inventories, interpretation of saved measurements and selected learner-recorded Phoenix views form this learning journal. The synthetic identity-alignment example was independently authored during publication with AI assistance. It is illustrative, not part of the learner's historical lab run. AI assistance also supported initial organization, documentation and publication review. No unseen transcripts, personal reflections or fresh hosted runs are claimed.
+Original paraphrased summaries, artifact inventories, interpretation of saved measurements and selected learner-recorded lab views form this learning journal. The synthetic identity-alignment example and the five-stage technical companion were independently authored during publication with AI assistance. They illustrate evaluation mechanics on new synthetic fixtures and are separate from the learner's historical lab runs. Their locally executed outputs do not reproduce the course recordings or measure the course agent. AI assistance also supported initial organization, documentation and publication review. No unseen transcripts, personal reflections or fresh hosted runs are claimed.
 
 ## Redistribution review - 14 November 2026
 
@@ -16,7 +16,7 @@ Reviewed [DeepLearning.AI Terms of Use](https://www.deeplearning.ai/terms-of-use
 
 Public Git excludes original course notebooks, graded solutions, helper modules, transcripts, slide PDFs, ZIPs, raw course downloads and unreviewed screenshots/recordings. They remain intact locally and are indexed by filename/hash in ARTIFACTS.json. Public CAPTURE files explain observations without exercise source or quiz answers. No blanket license is assigned to course materials or third-party screens.
 
-Four selected Phoenix excerpts show synthetic catalog/order traces and score annotations. All included frames were inspected; notebook instruction/source panels were omitted. [MEDIA.json](MEDIA.json) records the exact source hashes and frame indices. They are credited as learner-recorded coursework evidence; no rights to Phoenix branding or the underlying course are asserted.
+Five selected excerpts show synthetic catalog/order traces, labeled benchmark rows and score annotations. Module 2 uses the hosted Data Explorer; the other excerpts show Phoenix. All included frames were inspected; notebook instruction/source panels were omitted. [MEDIA.json](MEDIA.json) records the exact source hashes and frame indices. They are credited as learner-recorded coursework evidence; no rights to Phoenix branding or the underlying course are asserted.
 
 Publication scans cover tracked text, notebook source/output/metadata, credential-like patterns, environment filenames and temporary/authenticated URLs; selected images are visually reviewed. No credentials, environment files, private customer data or authenticated download URLs are intentionally published. Source hashes identify local evidence without redistributing it.
 

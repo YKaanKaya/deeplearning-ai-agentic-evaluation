@@ -34,6 +34,12 @@ Local-only original: `labs/m4-graded-lab-multi-layer-agent-evaluation/C1M4_Assig
 
 No runnable practice notebook, course helper tree, database snapshot or dependency lock is present. The media demonstrates a separate practice capture; its numbers should not be substituted for the graded notebook's results. No platform grade or new rerun is claimed.
 
+## Runnable technical companion
+
+The independent [Module 4 source](../technical_companion/m4_outcomes.py) takes a benchmark expectation and its replayed run and produces separate tool, ordering, policy and outcome checks. [Follow the code, data handoff and recorded output](../docs/TECHNICAL_WALKTHROUGH.md#module-4).
+
+This deterministic $42 demo was authored during publication with AI assistance. Its outputs are separate from the saved course runs and Phoenix recordings discussed above.
+
 ## Published learning material
 
 | Resource | What to explore |

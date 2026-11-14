@@ -1,0 +1,127 @@
+{
+  "fixture_id": "synthetic-companion-v1",
+  "scope": "Independent deterministic replay; not a course run or production measurement",
+  "environment": {
+    "python": "3.11.9",
+    "dependencies": "standard library only"
+  },
+  "module_1": {
+    "case_id": "DEMO-REFUND",
+    "version": "baseline",
+    "root_span_id": "baseline/DEMO-REFUND",
+    "linked_spans": 4,
+    "tool_names": [
+      "lookup_order",
+      "verify_identity",
+      "issue_refund"
+    ],
+    "refund_records": 1
+  },
+  "module_2": {
+    "unique_cases": 3,
+    "requirements_covered": 3,
+    "requirements_declared": 3,
+    "source_span_ids": {
+      "DEMO-REFUND": "baseline/DEMO-REFUND",
+      "DEMO-STATUS": "baseline/DEMO-STATUS",
+      "DEMO-EXPIRED": "baseline/DEMO-EXPIRED"
+    }
+  },
+  "module_3": {
+    "structured_grounding": true,
+    "fixed_judge_agreement": {
+      "matched": 3,
+      "total": 4,
+      "accuracy": 0.75,
+      "kappa": 0.5
+    }
+  },
+  "module_4": {
+    "case_id": "DEMO-REFUND",
+    "version": "candidate",
+    "layers": {
+      "grounding": true,
+      "selection": false,
+      "invocation": true,
+      "ordering": true,
+      "outcome": false,
+      "policy": true
+    }
+  },
+  "module_5": {
+    "cases": 3,
+    "paired": {
+      "DEMO-REFUND": {
+        "baseline": {
+          "grounding": true,
+          "selection": true,
+          "invocation": true,
+          "ordering": true,
+          "outcome": true,
+          "policy": true
+        },
+        "candidate": {
+          "grounding": true,
+          "selection": false,
+          "invocation": true,
+          "ordering": true,
+          "outcome": false,
+          "policy": true
+        }
+      },
+      "DEMO-STATUS": {
+        "baseline": {
+          "grounding": true,
+          "selection": true,
+          "invocation": true,
+          "ordering": true,
+          "outcome": true,
+          "policy": true
+        },
+        "candidate": {
+          "grounding": true,
+          "selection": true,
+          "invocation": true,
+          "ordering": true,
+          "outcome": true,
+          "policy": true
+        }
+      },
+      "DEMO-EXPIRED": {
+        "baseline": {
+          "grounding": true,
+          "selection": true,
+          "invocation": true,
+          "ordering": true,
+          "outcome": true,
+          "policy": true
+        },
+        "candidate": {
+          "grounding": true,
+          "selection": true,
+          "invocation": true,
+          "ordering": true,
+          "outcome": true,
+          "policy": true
+        }
+      }
+    },
+    "regressions": [
+      "DEMO-REFUND"
+    ],
+    "layer_regressions": {
+      "DEMO-REFUND": [
+        "selection",
+        "outcome"
+      ]
+    },
+    "gate_passed": false,
+    "baseline_outcomes": 3,
+    "candidate_outcomes": 2
+  },
+  "operations": {
+    "baseline_tool_calls": 6,
+    "candidate_tool_calls": 5,
+    "timing": "Not measured; span duration values are invented fixtures"
+  }
+}

@@ -19,7 +19,14 @@ Open a module's linked lesson and use its supplied runtime. Preserve notebook na
 
 The notebooks import missing packages such as `apparel_agent`, `dlai_utils`, `trace_display`, `utils` and `unittests`. Some assume course-provided model credentials/proxies and a local Phoenix service. Installing similarly named packages will not reconstruct these course modules. The M2 notebook retains a `RateLimitError`.
 
-## Included local example
+## Included local examples
+
+The five-stage [technical companion](TECHNICAL_WALKTHROUGH.md) is also independently authored and uses only the Python standard library. It replays new synthetic requests, constructs trace-linked cases, validates fixed label vectors, evaluates actions/state and compares protected layers. It starts no Phoenix server and calls no model. Its synthetic duration fields are fixture data, not measured latency. Run it from the repository root:
+
+```powershell
+python -m technical_companion
+python -m unittest technical_companion.test_pipeline -v
+```
 
 `experiments/identity_alignment.py` uses only the Python standard library. It verifies reordered rows, duplicate/missing identities and paired aggregation. The notebook contains the same separately authored example with synthetic data and outputs generated during publication.
 

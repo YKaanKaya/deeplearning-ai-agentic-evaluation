@@ -10,8 +10,20 @@
       5,
       6
     ],
-    "poster_frame_zero_based": 3,
+    "poster_frame_zero_based": 6,
     "review": "Reviewed all included frames for visible credentials, authenticated URLs, course source/solutions and private data. Synthetic Northwind traces and evaluator annotations only."
+  },
+  {
+    "name": "m2-benchmark",
+    "source": "Module-02-observing-and-benchmarking-agents/labs/lab-1-build-the-northwind-benchmark/M2_Northwind_Benchmark_Walkthrough.gif",
+    "source_sha256": "64607ed9d469976a0e6e2152cd9063597af2ebe629a08ce8a4b99b1fc996cc38",
+    "frames_zero_based": [
+      2,
+      3,
+      6
+    ],
+    "poster_frame_zero_based": 6,
+    "review": "All included frames visually reviewed. Hosted Data Explorer tables derived from Phoenix traces; original course source/instruction/prompt panels omitted. Synthetic questions, responses, labels and span IDs; no visible credentials, authenticated URLs or private customer data."
   },
   {
     "name": "m3-validation",

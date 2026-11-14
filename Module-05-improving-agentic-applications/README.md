@@ -26,6 +26,12 @@ These are small educational samples, not estimates of production reliability. Th
 
 See [central results and source locators](../docs/RESULTS.md) and the [artifact inventory](../docs/ARTIFACTS.json). Course notebooks, slides, and solution cells remain local; this publication contains original analysis and reviewed visual evidence, with course attribution.
 
+## Runnable technical companion
+
+The independent [Module 5 source](../technical_companion/m5_compare.py) takes Module 4 score vectors for the same cases in two versions and produces identity-paired layer regressions and a gate decision. [Follow the code, data handoff and recorded output](../docs/TECHNICAL_WALKTHROUGH.md#module-5).
+
+This deterministic $42 demo was authored during publication with AI assistance. Its outputs are separate from the saved course runs and Phoenix recordings discussed above.
+
 ## Published learning material
 
 | Resource | What to explore |

@@ -24,6 +24,12 @@ Local-only originals: `labs/m2-graded-lab-error-analysis-and-synthetic-test-data
 
 No runnable practice notebook, agent package, helper modules or dependency lock is preserved here. The archive is a learning capture rather than a complete application export. No new execution or platform-grade verification is claimed.
 
+## Runnable technical companion
+
+The independent [Module 2 source](../technical_companion/m2_benchmark.py) takes Module 1 source traces and declared requirements and produces trace-linked benchmark entries with stable case identity. [Follow the code, data handoff and recorded output](../docs/TECHNICAL_WALKTHROUGH.md#module-2).
+
+This deterministic $42 demo was authored during publication with AI assistance. Its outputs are separate from the saved course runs and Phoenix recordings discussed above.
+
 ## Published learning material
 
 | Resource | What to explore |

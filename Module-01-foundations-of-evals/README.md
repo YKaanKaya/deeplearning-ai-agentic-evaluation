@@ -26,6 +26,12 @@ Local-only originals: `labs/lab-1-trace-an-agent-with-python/local_traces_walkth
 
 The imported agent package, helper modules, trace JSON files and dependency lock are absent from this capture. No local rerun is claimed. See [environment limits](../docs/ENVIRONMENT.md) and the lab captures below. This public module page links only to substantive study notes and inspected lab records.
 
+## Runnable technical companion
+
+The independent [Module 1 source](../technical_companion/m1_trace.py) takes a synthetic support case and produces linked agent/tool spans and resulting state. [Follow the code, data handoff and recorded output](../docs/TECHNICAL_WALKTHROUGH.md#module-1).
+
+This deterministic $42 demo was authored during publication with AI assistance. Its outputs are separate from the saved course runs and Phoenix recordings discussed above.
+
 ## Published learning material
 
 | Resource | What to explore |

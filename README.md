@@ -2,9 +2,28 @@
 
 **Educational material | DeepLearning.AI coursework and original analysis by Kaan Kaya**
 
-An AI agent can sound right and still get the job wrong. This learning repository explores how to tell the difference, using a fictional apparel retailer's support agent.
+An AI agent can sound right and still get the job wrong. This technical learning repository follows the code and data needed to detect that: linked traces become benchmark cases, evaluators produce layered scores, and matched experiments expose regressions.
 
-[Read the visual case study](https://yasarkaankaya.com/showcase/agentic-evaluation/) | [Course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications) | [Certificate](https://www.deeplearning.ai/certificates/03976233-64c4-4195-a504-d5676a73f825)
+[Visual technical walkthrough](https://yasarkaankaya.com/showcase/agentic-evaluation/) | [Code and data contracts](docs/TECHNICAL_WALKTHROUGH.md) | [Course](https://www.deeplearning.ai/courses/evaluating-and-improving-agentic-applications) | [Certificate](https://www.deeplearning.ai/certificates/03976233-64c4-4195-a504-d5676a73f825)
+
+## Follow the code through five stages
+
+Each stage adds something the previous stage cannot establish. The public companion makes that progression executable on new synthetic requests, without API keys or external services.
+
+| Stage | Receives | Adds | Passes forward | Source |
+| --- | --- | --- | --- | --- |
+| 1. Trace | A support request and replayed tool actions | Linked agent/tool spans and final state | An inspectable run | [m1_trace.py](technical_companion/m1_trace.py) |
+| 2. Benchmark | Traced runs and expected requirements | Stable case identities, coverage and source-span provenance | Traceable benchmark cases | [m2_benchmark.py](technical_companion/m2_benchmark.py) |
+| 3. Validate | Declared claims, evidence and separate reference/judge labels | Structured-fact checks and label-agreement measurement | Explicit evaluation rules and a validation report | [m3_evaluators.py](technical_companion/m3_evaluators.py) |
+| 4. Evaluate | Cases, ordered tool calls and resulting state | Selection, argument, ordering, grounding, policy and outcome checks | A score vector for each case | [m4_outcomes.py](technical_companion/m4_outcomes.py) |
+| 5. Compare | Baseline/candidate score vectors keyed by case ID | Paired comparisons and a gate across the protected evaluation layers | A decision backed by the same cases | [m5_compare.py](technical_companion/m5_compare.py) |
+
+```powershell
+python -m technical_companion
+python -m unittest technical_companion.test_pipeline -v
+```
+
+The companion is independently authored educational code. It replays invented requests, including a $42 demo refund, and computes its own deterministic results. The recordings show separate saved **course runs**, including the $98 case below. The companion does not generate those recordings or reproduce their measurements. [Walk through the source, schemas and outputs](docs/TECHNICAL_WALKTHROUGH.md).
 
 ## Start with a refund
 
@@ -59,9 +78,9 @@ flowchart LR
 
 These are small educational samples. They illustrate failure modes and evaluation methods; they do not establish production reliability or a general performance improvement. [Read the measurements and exact source locators](docs/RESULTS.md).
 
-## Try the comparison failure yourself
+## Inspect the comparison failure in isolation
 
-The [independent synthetic notebook](experiments/identity-alignment.ipynb) demonstrates how reordered rows can invent a gain and a regression while aggregate scores remain unchanged. Its Python version requires only the standard library:
+For a smaller example, the [independent synthetic notebook](experiments/identity-alignment.ipynb) isolates how reordered rows can invent a gain and a regression while aggregate scores remain unchanged. Its Python version requires only the standard library:
 
 ```powershell
 python experiments/identity_alignment.py
@@ -72,7 +91,8 @@ The example checks case identity, duplicate cases and missing cases. It was prep
 ## Read, inspect and learn
 
 - [Methods explained](docs/METHODS.md): what each check measures and where it can mislead.
-- [Visual evidence](docs/MEDIA.md): four curated Phoenix recordings with captions and frame provenance.
+- [Technical walkthrough](docs/TECHNICAL_WALKTHROUGH.md): source code, schemas, computed outputs and the handoff between modules.
+- [Visual evidence](docs/MEDIA.md): five curated lab recordings with watchpoints and frame provenance.
 - [Results and limitations](docs/RESULTS.md): measured observations, sample sizes and sources.
 - [Artifact inventory](docs/ARTIFACTS.json): fingerprints of the original local evidence.
 

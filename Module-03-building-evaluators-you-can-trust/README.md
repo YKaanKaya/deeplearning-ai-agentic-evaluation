@@ -34,6 +34,12 @@ Local-only original: `labs/m3-graded-lab-building-and-trusting-evaluators/C1M3_A
 
 The practice notebook, course helpers, agent package and environment lock are absent. The saved assignment uses an Anthropic `claude-sonnet-4-6` judge; this is a recorded setting, not a claim of current model availability or a reproduced local run. Only substantive study notes and lab analysis are published here.
 
+## Runnable technical companion
+
+The independent [Module 3 source](../technical_companion/m3_evaluators.py) takes tool evidence, declared claims and separate fixed judge labels and produces a narrow fact check and reproducible agreement metrics. [Follow the code, data handoff and recorded output](../docs/TECHNICAL_WALKTHROUGH.md#module-3).
+
+This deterministic $42 demo was authored during publication with AI assistance. Its outputs are separate from the saved course runs and Phoenix recordings discussed above.
+
 ## Published learning material
 
 | Resource | What to explore |

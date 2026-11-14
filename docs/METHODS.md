@@ -2,6 +2,8 @@
 
 This educational index connects evaluation methods with the saved coursework evidence that illustrates them. All original notebooks remain local; hashes and saved execution state are in [ARTIFACTS.json](ARTIFACTS.json). The published module summaries cover selected concepts rather than reproducing the course's lectures.
 
+For the executable progression, follow the [five-stage technical walkthrough](TECHNICAL_WALKTHROUGH.md): traced runs feed benchmark entries, explicit evaluators feed score vectors, and identity-paired vectors feed a regression guard. Its independently authored synthetic code is separate from the recorded course experiments below.
+
 | Method | What it measures / procedure | Evidence and failure mode |
 | --- | --- | --- |
 | Explicit success criteria | Define expected behavior before a test; separate user outcome, policy and factual support | Module 1 opening summary; Module 5 practice predeclared criterion. A grade or fluent answer is not agent success. |
